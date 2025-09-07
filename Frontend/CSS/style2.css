@@ -1,0 +1,27 @@
+.container{
+height: 400px;
+width: 100%;
+font-size: 30px;
+display: flex;
+justify-content: center;
+}
+/* For desktop screen */
+@media(max-width:1200px){
+.container{
+    background-color: powderblue;
+}
+}
+/* For tablet screen */
+@media(max-width:760px){
+.container{
+    background-color: pink;
+    font-size: 25px;
+}
+}
+/* For mobile screen */
+@media(max-width:480px){
+.container{
+    background-color: palegreen;
+    font-size: 20px;
+}
+}
