@@ -1,0 +1,73 @@
+h1, h2, h3, h4 {
+font-family: 'Courier New', Courier, monospace;
+ text-align: center;
+}
+.odd {
+    color: aqua;
+}
+.even{
+    color: blueviolet;
+}
+#special-heading{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    background-color:pink;
+}
+.highlight{
+    font-weight: bold;
+    background-color: plum;
+}
+p1,p2,p3{
+font-size: large;
+line-height: 2cm;
+}
+#special-para{
+    border-radius: 20px;
+    color: plum;
+    background-color: beige;
+}
+#outer{
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: plum;
+    margin: 10px;
+    text-align: center;
+    text-decoration: solid;
+    
+}
+#inner{
+    font-size: 10px;
+    height: 30px;
+    width: 30x;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    height: 40px;
+    width: 30%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+}
+    .navbar a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    }
